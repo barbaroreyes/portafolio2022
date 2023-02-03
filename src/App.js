@@ -10,12 +10,13 @@ function App() {
       
           <>
           <Header />
+          <div className="layout">
           <Routes>
             <Route path="/" element={<Home/>}/>
           </Routes>
           <Footer/>
-          </>
-        
+          </div>
+        </>
         
     
   );
