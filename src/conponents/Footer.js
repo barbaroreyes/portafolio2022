@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <footer style={{
-          border:"1px solid ",
+          
           margin:"10px" ,
           height:"8vh",
           display:"flex",
