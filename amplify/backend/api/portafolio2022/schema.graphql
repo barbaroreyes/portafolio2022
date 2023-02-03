@@ -1,0 +1,9 @@
+type Project @model {
+  id: ID!
+  name: String!
+  description: String
+  tecnology: String
+  picture : String
+  live_url: String
+  code_url: String
+}
