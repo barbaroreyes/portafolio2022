@@ -11,8 +11,8 @@ function NavigationDropdown() {
       {displayLinks && (
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/servicios">Servicios</Link></li>
+          <li><Link to="/about">About Me</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
         </ul>
       )}
       
@@ -20,8 +20,8 @@ function NavigationDropdown() {
     
     <ul className="long-navigation">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/servicios">Servicios</Link></li>
+          <li><Link to="/about">About Me</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
         </ul>
     
        

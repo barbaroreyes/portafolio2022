@@ -3,7 +3,6 @@ import Picture from "./Picture"
 const Header = () => {
   return (
         <header style={{
-          
           margin:"10px",
           height:"20vh",
           display:"flex",
