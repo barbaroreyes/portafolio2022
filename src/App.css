@@ -16,6 +16,9 @@
   height:17.5vh;
   margin:10px;
   border-radius:12px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 @keyframes App-logo-spin {
