@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {Link} from "react-router-dom"
 function NavigationDropdown() {
   const [displayLinks, setDisplayLinks] = useState(false);
 
@@ -10,9 +10,9 @@ function NavigationDropdown() {
       </button>
       {displayLinks && (
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Servicios</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/servicios">Servicios</Link></li>
         </ul>
       )}
     </nav>
