@@ -1,5 +1,4 @@
 .project-container  {
- 
   margin:10px;
   display:flex;
   flex-wrap:wrap;
@@ -7,8 +6,6 @@
   align-items:center;
   border-radius:10px;
 }
-
-
 
 .project{
   border:1px solid ;
@@ -34,12 +31,46 @@
   object-fit:fill;
    height:80px;
 }
-
-
+.long-navigation{
+  display:none;
+}
+a{
+  text-decoration:none;
+}
+ @media (min-width: 768px){
+  .picture{
+   width: 19%;
+    height:180px;
+  }.picture img{
+    width:100%;
+    height:180px;
+  }
+ }
  @media (min-width: 1024px){
   .picture{
-    border: 1px solid red;
-    width: 10%;
+    width: 6.7%;
+    height:200px;
+  }.picture img{
+    width:100%;
+    height:200px;
+  }.short-navigation{
+    display: none;
+  }.long-navigation{
+    display:flex;
+    list-style: none;
+    
+    width: 20%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }.long-navigation li {
+   text-decoration: none;
+   border:1px solid; 
+   width: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
   }
  }
 @keyframes App-logo-spin {
